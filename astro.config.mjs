@@ -1,11 +1,5 @@
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
 export default defineConfig({
-
-    
-        site: 'https://elizabeth-fitz.github.io/',
-        base: 'Cwis_Web',
-      
-
+  base: '/Cwis_Web/', // 👈 Match the GitHub repo name
 });
