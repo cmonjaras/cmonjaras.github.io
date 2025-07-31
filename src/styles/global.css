@@ -64,15 +64,17 @@ li {
 }
 
 .navbar__title {
+  margin: 0 10px;
   font-family: var(--body);
   font-size: 1.7rem;
-  margin: 0 10px;
+ 
 }
 
 .navbar__menu {
   font-family: var(--body);
   font-size: 1.1rem;
   text-align: right;
+
 }
 
 .navbar__title>a,
