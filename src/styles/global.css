@@ -64,9 +64,10 @@ li {
 }
 
 .navbar__title {
-  margin: 0 10px;
+  
   font-family: var(--body);
   font-size: 1.7rem;
+  margin: 0.55rem;
  
 }
 
