@@ -74,7 +74,7 @@ li {
 .navbar__menu {
   font-family: var(--body);
   font-size: 1.1rem;
-  text-align: right;
+  text-align: center;
 
 }
 
