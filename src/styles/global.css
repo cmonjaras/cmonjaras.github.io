@@ -43,9 +43,12 @@ h2 {
   margin-bottom: 0;
 }
 address {
-  font-style: normal;       /* removes italic default */
+  font-style: normal;      /* no italics */
+  color: inherit;          /* same as surrounding text */
   line-height: 1.6;
-  color: inherit;  
+  padding-left: 2rem;      /* indent whole block */
+  text-indent: -2rem;      /* pull first line back out */
+
 }
 
 address a {
@@ -55,6 +58,11 @@ address a {
 
 address a:hover {
   text-decoration: underline;
+}
+
+.indent {
+  display: block;
+  margin-left: 2rem;
 }
 
 p {
