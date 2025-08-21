@@ -46,7 +46,6 @@ address {
   font-style: normal;      /* no italics */
   color: inherit;          /* same as surrounding text */
   line-height: 1.2;
-  padding-left: 2rem;      /* indent whole block */
   text-indent: -2rem;      /* pull first line back out */
  
 }
