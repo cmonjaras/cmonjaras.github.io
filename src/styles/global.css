@@ -79,7 +79,7 @@ li {
 /* Navigation Bar */
 .navbar {
   display: grid;
-  grid-template-columns: 0.48fr 0.52fr;
+  grid-template-columns: 0.7fr 0.635fr;
   margin-top: 0.8rem;
 }
 
