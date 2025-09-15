@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/CardPost.astro";
+const allPosts = await getCollection("posts");
+const pageTitle = "Research";
+---
+
+<Layout pageTitle={pageTitle}>
+<h1> Research <h1>
+<h2> Credit Crunch in the Classroom: School District Financing Under Liquidity Constraints</h2>
+
+<p>  In this paper, I examine how access to bond market liquidity affects future funding and staffing decisions in the US education system. Using a novel and comprehensive dataset of all municipal bonds issued by U.S. public school districts since 1987,
+ I apply machine learning techniques to identify districts near key credit rating thresholds.
+ Leveraging an RD design, I then estimate the causal impact of diminished credit access across these thresholds. I find that reduced access to bond market credit results in approximately 5% lower spending in the fiscal year following a ratings update. 
+I show that this is primarily driven by decreases in property tax revenue, capital expenditure spending and maintenance staff compensation with the largest effects observed for mid-sized school districts by total revenue.
+</p>
+
+<h3> Syllabus <h3>
+<p style="font-weight: normal;">If you experience issues viewing the following document or would like to download it please click this <a href = "https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/main/public/principles_of_micro.pdf">link</a> to view the PDF.</p>
+   <iframe 
+  src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/main/public/principles_of_micro.pdf&embedded=true" 
+  width="100%" 
+  height="675" 
+  style="border:none; margin:35px">
+</iframe>
+
+</Layout>
