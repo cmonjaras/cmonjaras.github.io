@@ -18,20 +18,4 @@ const pageTitle = "CV";
   style="border:none; margin:35px">
 </iframe>
 
-
-
-
-    <h2>Blog</h2>
-    <ul role="list" class="link-card-grid">
-        {
-            allPosts.map((cardPost) => (
-                <Card
-                    url={`${import.meta.env.BASE_URL}posts/${cardPost.id}/`}
-                    image={cardPost.data.image.url}
-                    title={cardPost.data.title}
-                    date={cardPost.data.date}
-                />
-            ))
-        }
-    </ul>
 </Layout>

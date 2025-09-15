@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/CardPost.astro";
+const allPosts = await getCollection("posts");
+const pageTitle = "Teaching";
+---
+
+<Layout pageTitle={pageTitle}>
+    
+<h2> Principles of Microeconomics</h2>
+
+<p> This undergraduate course serves as an introduction to the study of economics with a particular focus on the field of microeconomics. Microeconomics is the study of a set of models, their underlying assumptions, and their implications as they pertain to the behaviors and interactions of individuals and groups. 
+In particular, we will be looking at models involving the pricing mechanism, competitive and monopolistic markets, government regulation of the economy, labor-management relations, income determination, public policy, and trade. 
+The goals of this class are to expose students to the fundamental principles of economic thinking, develop their toolbox of economic models to allow for the analysis of common economic and social interactions, and to prepare students for future coursework in topics including business, finance, and economic theory.
+</p>
+
+<h3> Syllabus <h3>
+<p>If you experience issues viewing the following document or would like to download it please click this <a href = "https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/main/public/principles_of_micro.pdf">link</a> to view the PDF.</p>
+   <iframe 
+  src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/main/public/principles_of_micro.pdf&embedded=true" 
+  width="100%" 
+  height="675" 
+  style="border:none; margin:35px">
+</iframe>
+
+</Layout>
