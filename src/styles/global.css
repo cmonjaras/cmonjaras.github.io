@@ -357,9 +357,7 @@ html.light {
   border-color: var(--text-link);
 }
 
-.light .git-icon {
-  content: url("/.netlify/images?url=/images/github-mark.svg");
-}
+
 
 .light .mail-icon {
   content: url("/.netlify/images?url=/images/mail.svg");
