@@ -69,7 +69,7 @@ p {
   font-size: 1.1rem;
   hyphens: auto;
   line-height: 1.5;
-  text-indent: 1rem;
+  
 }
 
 small,
@@ -199,6 +199,12 @@ li {
 .card__link:hover {
   transform: scale(1.05);
 }
+
+.adjust-size{
+
+  font-size: 1.7rem;
+}
+
 
 .link-card-grid {
   display: grid;
