@@ -284,6 +284,11 @@ footer {
   border-color: var(--text-link);
 }
 
+.cap-icon{
+content:url("https://github.com/cmonjaras/cmonjaras.github.io/blob/main/public/images/grad-cap.png?raw=true")
+
+}
+
 .git-icon {
   content: url("https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/b7c24a99bedd646055a57253ebcc23d823ae95c5/public/images/github-mark-white.svg");
 }
@@ -355,6 +360,11 @@ html.light {
 
 .light .icon__link:hover {
   border-color: var(--text-link);
+}
+.light .cap-icon{
+
+content:url("https://github.com/cmonjaras/cmonjaras.github.io/blob/main/public/images/grad%20cap.png?raw=true")
+
 }
 
 .light .git-icon {
