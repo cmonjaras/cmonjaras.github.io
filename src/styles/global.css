@@ -285,7 +285,7 @@ footer {
 }
 
 .git-icon {
-  content: url("/.netlify/images?url=/images/github-mark-white.svg");
+  content: url("https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/b7c24a99bedd646055a57253ebcc23d823ae95c5/public/images/github-mark-white.svg");
 }
 
 .mail-icon {
@@ -357,7 +357,9 @@ html.light {
   border-color: var(--text-link);
 }
 
-
+.light .git-icon {
+  content: url("https://raw.githubusercontent.com/cmonjaras/cmonjaras.github.io/a9b2d9e40cfaf5fa27b5204eb3bc595ae75b3ae1/public/images/github-mark.svg");
+}
 
 .light .mail-icon {
   content: url("/.netlify/images?url=/images/mail.svg");
